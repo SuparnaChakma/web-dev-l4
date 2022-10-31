@@ -1,0 +1,67 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .cont{
+        width: 100%;  
+    }
+    .logo{
+        padding: 20px;
+        float: left;
+    }
+    .logo h3{
+        float: right;
+        padding-left: 10px;
+    }
+    .logo img{
+        width: 50px;
+        height: 50px;
+    }
+    .menu{ 
+        line-height: 40px;
+        }
+      .menu ul li a{
+        padding-right: 15px;
+        font-size: 15px;
+       }
+
+       /* slider part start */
+.slider{
+    width: 100%;
+   
+}
+.slider h1{
+   
+    top: 20%;
+    left: 30%;
+    font-size: 30px;
+    color: aliceblue;
+
+}
+.slider p{
+    
+    top: 25%;
+    left: 26%;
+    text-align: center;
+
+}
+.slider a{
+    
+    top: 32%;
+    text-align: center;
+    left: 55%;
+    color: rgba(62, 16, 169, 0.83);
+    text-decoration: none;
+    border: 1px solid rgb(29, 19, 214);
+    padding: 10px;
+    background: rgb(144, 65, 45);
+    border-radius: 30px;
+
+}
+.slider a:hover{
+    background: rgb(37, 171, 48);
+    color: rgb(115, 10, 10);
+}
+
+
+
+/* slider part end */
+}
